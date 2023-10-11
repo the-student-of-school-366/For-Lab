@@ -13,8 +13,10 @@
     input: 2, 5
     output: 5
 
-- def perimeter(a, b, c):  
+  ~~~python
+  def perimeter(a, b, c):  
       return a + b + c
+  ~~~
 
       '''Принимает на вход стороны треугольника и возвращвет его периметр'''
     example:
