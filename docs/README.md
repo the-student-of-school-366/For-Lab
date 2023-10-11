@@ -22,7 +22,7 @@
     output: 9
 
 ### rectangle.py
-- def area(a, b):
+- def area(a, b):  
       return a * b
 
         '''Принимает на вход стороны прямоугольника и возвращвет его плошадь'''
@@ -30,7 +30,7 @@
         input: 2, 3
         output: 12
 
-def perimeter(a, b):
+def perimeter(a, b):  
     return (a + b)*2
 
     '''Принимает на вход сторонЫ прямоугольника и возвращвет его периметр'''
@@ -41,14 +41,14 @@ def perimeter(a, b):
 import math
 
 
-def area(r):
+def area(r):  
     return math.pi * r * r 
 
     '''Принимает радиус окуружности и возвращает площадь окружности.'''
     example:
     input: 3
     output: 28.2743...
-def perimeter(r):
+def perimeter(r):  
     return 2 * math.pi * r
 
     '''Принимает радиус окуружности и возвращает длинну окружности.'''
@@ -57,7 +57,7 @@ def perimeter(r):
     output: 6
 
 ### square.py
-def area(a):
+def area(a):  
     return a * a
 
     '''Принимает на вход сторону квадрата и возвращвет его плошадь'''
@@ -65,7 +65,7 @@ def area(a):
     input:  4
     output: 16
 
-def perimeter(a):
+def perimeter(a):  
     return 4 * a
 
     '''Принимает на вход сторону квадрата и возвращвет его периметр'''
