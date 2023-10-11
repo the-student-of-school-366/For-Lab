@@ -14,7 +14,7 @@
     output: 5
 
 - def perimeter(a, b, c):
-    return a + b + c
+      return a + b + c
 
       '''Принимает на вход стороны треугольника и возвращвет его периметр'''
     example:
@@ -23,7 +23,7 @@
 
 ### rectangle.py
 - def area(a, b):
-    return a * b
+      return a * b
 
         '''Принимает на вход стороны прямоугольника и возвращвет его плошадь'''
         example:
