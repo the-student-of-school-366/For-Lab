@@ -2,7 +2,7 @@
 ## Общее описание решения
 - В процессе выполнения данной лабораторной работы был создан репозиторий на GitHub, куда был загружено 2 файла с геометрическими формуллами на языке python. Так же проект имеет fork с другим проектом.
 ## Описание функций с примерами вызова
-###triangle.py
+### triangle.py
 
 - def area(a, h):
     return a * h / 2
@@ -21,7 +21,7 @@
     input: 2, 3, 4
     output: 9
 
-###rectangle.py
+### rectangle.py
 - def area(a, b):
     return a * b
 
@@ -56,7 +56,7 @@ def perimeter(r):
     input: 3, 4
     output: 6
 
-###square.py
+### square.py
 def area(a):
     return a * a
 
