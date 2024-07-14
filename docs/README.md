@@ -3,9 +3,10 @@
 - В процессе выполнения данной лабораторной работы был создан репозиторий на GitHub, куда был загружено 2 файла с геометрическими формуллами на языке python. Так же проект имеет fork с другим проектом.
 ## Описание функций с примерами вызова
 ### triangle.py
-
-- def area(a, h):  
+~~~python
+ def area(a, h):  
     return a * h / 2
+~~~
 
       '''Принимает на вход сторону и высоту треугольника и возвращвет его плошадь'''
 
@@ -24,34 +25,38 @@
     output: 9
 
 ### rectangle.py
-- def area(a, b):  
-      return a * b
+  ~~~python
+ def area(a, b):  
+    return a * b
+  ~~~
 
         '''Принимает на вход стороны прямоугольника и возвращвет его плошадь'''
         example:
         input: 2, 3
         output: 12
-
+  ~~~python
 def perimeter(a, b):  
     return (a + b)*2
+  ~~~
 
     '''Принимает на вход сторонЫ прямоугольника и возвращвет его периметр'''
     example:
     input: 3, 4
     output: 6
 ### circle.py
+  ~~~python
 import math
-
-
 def area(r):  
     return math.pi * r * r 
-
+  ~~~
     '''Принимает радиус окуружности и возвращает площадь окружности.'''
     example:
     input: 3
     output: 28.2743...
+      ~~~python
 def perimeter(r):  
     return 2 * math.pi * r
+      ~~~
 
     '''Принимает радиус окуружности и возвращает длинну окружности.'''
     example:
@@ -59,16 +64,20 @@ def perimeter(r):
     output: 6
 
 ### square.py
+  ~~~python
 def area(a):  
     return a * a
+  ~~~
 
     '''Принимает на вход сторону квадрата и возвращвет его плошадь'''
     example:
     input:  4
     output: 16
-
+    
+  ~~~python
 def perimeter(a):  
     return 4 * a
+  ~~~
 
     '''Принимает на вход сторону квадрата и возвращвет его периметр'''
     example:
